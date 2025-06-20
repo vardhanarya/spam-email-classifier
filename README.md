@@ -36,6 +36,7 @@ spam-email-classifier/
 ├── README.md # Project documentation
 ├── requirements.txt # Python dependencies
 └── app.py # Script for model prediction (if using a web app)
+
 ---
 
 ## 📊 Dataset
