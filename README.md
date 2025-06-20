@@ -28,8 +28,14 @@ A machine learning-based spam detection system that uses natural language proces
 
 ## 📂 Folder Structure
 
-<pre> spam-email-classifier/ ├── dataset/ # (Optional) Folder containing the SMS spam dataset ├── model.pkl # Saved trained model ├── sms-spam-detection.ipynb # Main Jupyter notebook ├── README.md # Project documentation └── requirements.txt # Python dependencies </pre>
-
+spam-email-classifier/
+├── dataset/ # (Optional) Folder containing the SMS spam dataset
+├── model.pkl # Saved trained model
+├── vectorizer.pkl # Saved TF-IDF vectorizer
+├── sms-spam-detection.ipynb # Main Jupyter notebook
+├── README.md # Project documentation
+├── requirements.txt # Python dependencies
+└── app.py # Script for model prediction (if using a web app)
 ---
 
 ## 📊 Dataset
